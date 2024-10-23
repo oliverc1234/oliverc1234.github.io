@@ -20,6 +20,10 @@ header {
     border-bottom: 4px solid #333;
 }
 
+header:hover a p.new-label:after{
+    content: 'test';
+}
+
 h1 {
     color: #333;
     font-size: 2.5rem;
